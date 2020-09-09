@@ -1,0 +1,34 @@
+{
+  "name": "key-hitter",
+  "productName": "KeyHitter",
+  "version": "1.3.0",
+  "description": "key-hitter",
+  "main": "./main.prod.js",
+  "author": {
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "iohook": "^0.6.6",
+    "node-hid": "^1.3.0",
+    "node-hid-stream": "^1.1.0"
+  },
+  "iohook": {
+    "targets": [
+      "node-72",
+      "electron-76"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
