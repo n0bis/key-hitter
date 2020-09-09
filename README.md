@@ -9,7 +9,7 @@ I'll be using it to learn the keebio iris layout.
 
 ## Status
 
-Need to detect layer switching.
+Need to detect layer switching and do some house keeping.
 
 ## Based on
 
