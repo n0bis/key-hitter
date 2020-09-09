@@ -9,7 +9,9 @@ I'll be using it to learn the keebio iris layout.
 
 ## Status
 
-Need to detect layer switching and do some house keeping.
+ * Need to detect layer switching
+ * Make it generic
+ * House Keeping
 
 ## Based on
 
